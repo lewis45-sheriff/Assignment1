@@ -20,11 +20,11 @@ function calculateDemeritPoints(speed) {
         }
     }
     
-    rl.close(); // Close readline interface after processing
+    rl.close(); 
 }
 
 // Prompt user for input
 rl.question("Enter the speed of the car: ", function(speed) {
-    speed = parseInt(speed); // Convert input to integer
+    speed = parseInt(speed); 
     calculateDemeritPoints(speed);
 });
