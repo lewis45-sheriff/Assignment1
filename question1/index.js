@@ -1,10 +1,10 @@
+//readline for input processing
 const readline = require('readline');
-
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-
+//student function
 function studentGrade() {
     rl.question("Enter student marks (0-100): ", function(answer) {
         let marks = parseFloat(answer);
