@@ -1,4 +1,4 @@
-function getStudentGrade() {
+function studentGrade() {
     let marks;
     while (true) {
         marks = prompt("Enter student marks (0-100):");
@@ -28,4 +28,4 @@ function getStudentGrade() {
 }
 
 // Call the function to prompt the user for input and display the grade
-getStudentGrade();
+studentGrade();
